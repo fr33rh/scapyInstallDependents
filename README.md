@@ -1,13 +1,13 @@
 # scapyInstallDependents
 
-http://www.dongcoder.com/detail-622451.html
+http://www.dongcoder.com/detail-622451.html  
 
-python -V
-Python 2.7.10
+python -V  
+Python 2.7.10  
 
-virtualenv venv (创建虚拟环境的目录，名为venv，它包含了Python可执行文件和拷贝过来的pip 库,能安装需要的包到虚拟环境）
-source venv/bin/activate (激活刚才创建的虚拟环境)
-(deactivate 关闭虚拟环境)
+virtualenv venv 创建虚拟环境的目录，名为venv，它包含了Python可执行文件和拷贝过来的pip 库,能安装需要的包到虚拟环境   
+source venv/bin/activate 激活刚才创建的虚拟环境  
+deactivate 关闭虚拟环境  
 
 ## PyX-0.10
 tar -zxvf pyx-0.10.tar.gz    
