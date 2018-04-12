@@ -10,29 +10,29 @@ source venv/bin/activate (激活刚才创建的虚拟环境)
 (deactivate 关闭虚拟环境)
 
 ## PyX-0.10
-tar -zxvf pyx-0.10.tar.gz
-python setup.py install
-
-
-##pypcap-1.1.4
-tar -zxvf pypcap-1.1.4.tar.gz
-python setup.py install
-
-
-##gnuplot-py-1.8
-pip install numpy
-python setup.py install
-
-
-##dnet (libdnet-1.12)
-tar zxvf libdnet-1.12.tgz
-chmod a+x configure
-./configure && make
-make install
-
-cd python 
-python setup.py install
-确认下 lib/python2.7/site-packages/下是否有dnet-1.12-py2.7.egg-info    dnet.so两个文件
-
-##scapy-2.3.1
-python setup.py install
+tar -zxvf pyx-0.10.tar.gz    
+python setup.py install  
+  
+  
+## pypcap-1.1.4  
+tar -zxvf pypcap-1.1.4.tar.gz  
+python setup.py install  
+  
+  
+## gnuplot-py-1.8  
+pip install numpy  
+python setup.py install  
+  
+  
+## dnet (libdnet-1.12)  
+tar zxvf libdnet-1.12.tgz  
+chmod a+x configure  
+./configure && make  
+make install  
+  
+cd python   
+python setup.py install  
+确认下 lib/python2.7/site-packages/下是否有dnet-1.12-py2.7.egg-info    dnet.so两个文件  
+  
+## scapy-2.3.1  
+python setup.py install  
